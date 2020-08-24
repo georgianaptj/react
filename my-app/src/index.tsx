@@ -7,6 +7,7 @@ import { Provider } from "react-redux";
 import * as serviceWorker from "./serviceWorker";
 
 //starting point
+// The Provider makes the Redux store available to any nested componentsthat have been wrapped in the connect() function.
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
