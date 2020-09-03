@@ -1,0 +1,10 @@
+Asa cum am discutat ieri la curs, venim catre voi cu un “final challenge” si anume:
+-	Majoritatea aveti implementat un table din terra de la o tema anterioara, asadar aveti de populat acel table cu date de aici: https://jsonplaceholder.typicode.com/users
+-	Trebuie sa existe optiunea de add new user in tabel, folosind REDUX, iar user-ul nou se va pozitiona ca si first entry in table.
+-	Optional: Remove user from the table
+
+Note: Cati useri sunt in table, atatea linii trebuie sa aiba tabelul.
+Contra-exemplu: In cazul in care sunt 7 useri si se da delete la unul, se sterge si linia pe care era pozitionat user-ul sters.
+
+Deadline: Sambata, 29.08 ora 20.
+As vrea sa tratati cu multa responsabilitate sarcina pe care o aveti si nu as vrea sa vad aceleasi secvente de cod pe la mai multi dintre voi.
