@@ -1,18 +1,13 @@
 import React from "react";
-import Footer from "./Footer";
-import AddTodo from "./AddTodo";
-import VisibleTodoList from "./VisibleTodoList";
 import TerraTable from "./TerraTable";
+import AddUser from "./AddUser";
 
 const App = () => (
   <div>
-    <p>Insert your todo task in te box bellow:</p>
-    <AddTodo />
-    <VisibleTodoList />
-    <Footer />
-    <br />
+    <h1>Users</h1>
     <br />
     <TerraTable />
+    <AddUser />
   </div>
 );
 

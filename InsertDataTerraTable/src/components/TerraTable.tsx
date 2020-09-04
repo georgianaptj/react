@@ -17,13 +17,38 @@ const PaddingTable = () => {
           { key: "cell-3", children: item.email },
           {
             key: "cell-4",
-            children: item.address.city,
+            children:
+              "Street: " +
+              item.address.street +
+              ", " +
+              "Suite: " +
+              item.address.suite +
+              ", " +
+              "City: " +
+              item.address.city +
+              ", " +
+              "Zipcode: " +
+              item.address.zipcode +
+              ", " +
+              "Geo: lat: " +
+              item.address.geo.lat +
+              ", " +
+              "lng: " +
+              item.address.geo.lng,
           },
           { key: "cell-5", children: item.phone },
           { key: "cell-6", children: item.website },
           {
             key: "cell-7",
-            children: item.company.name,
+            children:
+              "Name:" +
+              item.company.name +
+              ", " +
+              "Company catch phrase: " +
+              item.company.catchPhrase +
+              ", " +
+              "bs: " +
+              item.company.bs,
           },
         ],
       };
@@ -40,7 +65,6 @@ const PaddingTable = () => {
 
   return (
     <div>
-      <span>{JSON.stringify(users)}</span>
       <hr />
       <Table
         summaryId="compact-table"
